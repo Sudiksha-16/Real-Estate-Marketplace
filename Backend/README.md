@@ -32,12 +32,18 @@ This is the backend for the Real Estate Marketplace application built using Node
    cd your-repository-name
    ```
 2. **Install dependicies**:
-   ### `npm install`
+   ```bash
+   npm install
+   ```
 
 3.**Set Up Environment Variables**: 
 -Create a file named .env in the root of the backend directory and add the following variables:
-  ### `MONGODB_ATLAS_CONNECTION_STRING=<your_mongodb_atlas_connection_string>`
+  ```bash
+  MONGODB_ATLAS_CONNECTION_STRING=<your_mongodb_atlas_connection_string>
+```
 
 4. **Start the server**:
-   ### `npm start`
+   ```bash
+   npm start
+   ```
    The server should now be running on http://localhost:5000.
